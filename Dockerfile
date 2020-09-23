@@ -21,6 +21,8 @@ ENV PATH $PATH:/opt/${SERVICE_NAME}
 
 WORKDIR /opt/${SERVICE_NAME}
 
+RUN mkdir storage
+
 COPY --from=go-builder /usr/src/app/dist/go-whatsapp ./go-whatsapp
 
 CMD ["go-whatsapp"]
