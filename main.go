@@ -6,6 +6,8 @@ import (
 	"log"
 	"os"
 	"os/signal"
+	"reflect"
+	"strings"
 	"syscall"
 	"time"
 
@@ -20,6 +22,17 @@ type waHandler struct {
 //HandleError needs to be implemented to be a valid WhatsApp handler
 func (h *waHandler) HandleError(err error) {
 
+	log.Println(reflect.TypeOf(err).String())
+	if strings.Contains(err.Error(), "server closed connection") {
+		log.Printf("Connection failed, underlying error: %v", err)
+		log.Println("Waiting 30sec...")
+		<-time.After(30 * time.Second)
+		log.Println("Reconnecting...")
+		err := h.c.Restore()
+		if err != nil {
+			log.Fatalf("Restore failed: %v", err)
+		}
+	}
 	if e, ok := err.(*whatsapp.ErrConnectionFailed); ok {
 		log.Printf("Connection failed, underlying error: %v", e.Err)
 		log.Println("Waiting 30sec...")
