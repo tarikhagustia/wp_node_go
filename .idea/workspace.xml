@@ -19,23 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="966331c9-8b8f-46ca-a6b1-88c2bc98f3d9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/wp_node_go.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/app.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/login.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/response.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/whatsapp/whatsapp.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/wp.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kernel/kernel.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.go.bak" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/.gitignore" afterDir="false" />
+    <list default="true" id="966331c9-8b8f-46ca-a6b1-88c2bc98f3d9" name="Default Changelist" comment="Update">
       <change afterPath="$PROJECT_DIR$/storage/whatsappSession.gob" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kernel/kernel.go" beforeDir="false" afterPath="$PROJECT_DIR$/kernel/kernel.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -130,6 +117,10 @@
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Update" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update" />
+  </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
   </component>
@@ -142,22 +133,22 @@
       <screen x="0" y="23" width="1680" height="973" />
     </state>
     <state x="550" y="319" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1680.973@0.23.1680.973" timestamp="1602139214221" />
-    <state width="1638" height="262" key="GridCell.Tab.0.bottom" timestamp="1602208692507">
+    <state width="1638" height="262" key="GridCell.Tab.0.bottom" timestamp="1602209065285">
       <screen x="0" y="23" width="1680" height="973" />
     </state>
-    <state width="1638" height="262" key="GridCell.Tab.0.bottom/0.23.1680.973@0.23.1680.973" timestamp="1602208692507" />
-    <state width="1638" height="262" key="GridCell.Tab.0.center" timestamp="1602208692506">
+    <state width="1638" height="262" key="GridCell.Tab.0.bottom/0.23.1680.973@0.23.1680.973" timestamp="1602209065285" />
+    <state width="1638" height="262" key="GridCell.Tab.0.center" timestamp="1602209065284">
       <screen x="0" y="23" width="1680" height="973" />
     </state>
-    <state width="1638" height="262" key="GridCell.Tab.0.center/0.23.1680.973@0.23.1680.973" timestamp="1602208692506" />
-    <state width="1638" height="262" key="GridCell.Tab.0.left" timestamp="1602208692506">
+    <state width="1638" height="262" key="GridCell.Tab.0.center/0.23.1680.973@0.23.1680.973" timestamp="1602209065284" />
+    <state width="1638" height="262" key="GridCell.Tab.0.left" timestamp="1602209065284">
       <screen x="0" y="23" width="1680" height="973" />
     </state>
-    <state width="1638" height="262" key="GridCell.Tab.0.left/0.23.1680.973@0.23.1680.973" timestamp="1602208692506" />
-    <state width="1638" height="262" key="GridCell.Tab.0.right" timestamp="1602208692507">
+    <state width="1638" height="262" key="GridCell.Tab.0.left/0.23.1680.973@0.23.1680.973" timestamp="1602209065284" />
+    <state width="1638" height="262" key="GridCell.Tab.0.right" timestamp="1602209065285">
       <screen x="0" y="23" width="1680" height="973" />
     </state>
-    <state width="1638" height="262" key="GridCell.Tab.0.right/0.23.1680.973@0.23.1680.973" timestamp="1602208692507" />
+    <state width="1638" height="262" key="GridCell.Tab.0.right/0.23.1680.973@0.23.1680.973" timestamp="1602209065285" />
     <state x="538" y="142" width="604" height="735" key="find.popup" timestamp="1602141970923">
       <screen x="0" y="23" width="1680" height="973" />
     </state>

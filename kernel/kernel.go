@@ -17,6 +17,11 @@ const SECRET = "Hakuna Matata"
 func AuthRequired() gin.HandlerFunc {
 	return func(c *gin.Context) {
 		token, err := VerifyToken(c.Request)
+		if err != nil {
+			c.JSON(http.StatusBadRequest, gin.H{"message": err.Error()})
+			c.Abort()
+			return
+		}
 		if claims, ok := token.Claims.(jwt.MapClaims); ok && token.Valid {
 			c.Set("device", claims["device"])
 		} else {
@@ -72,6 +77,7 @@ func Initialize() error {
 	application.Restore()
 
 	r := gin.Default()
+	r.GET("/", application.Ping)
 	r.GET("/ping", application.Ping)
 
 	// API Version 1 Router Group
